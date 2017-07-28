@@ -217,7 +217,7 @@ public class EnumStateController : MonoBehaviour {
 		float chance_0 = Random.value;
 		print (chance_0);
 
-		if (chance_0 >= 0.3f) {
+		if (chance_0 >= 0.32f) {
 			myState = States.parents_0;
 			GainFatherHealth (5);
 			GainMotherHealth (5);
